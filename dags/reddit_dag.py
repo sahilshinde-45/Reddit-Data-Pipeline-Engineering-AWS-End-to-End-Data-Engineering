@@ -13,7 +13,7 @@ from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
     'owner': 'Sahil Shinde',
-    'start_date': datetime(2025, 4, 10)
+    'start_date': datetime(2025, 3, 10)
 }
 file_postfix = datetime.now().strftime("%Y%m%d")
 
